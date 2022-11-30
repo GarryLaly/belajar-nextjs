@@ -68,9 +68,9 @@ function App() {
   return (
     <div>
       <Header keyword={keyword} setKeyword={setKeyword} />
-      
-      <h1 style={{ color: "green" }}>Hasil pencarian "{keyword}"</h1>
-      <h1>Hasil pencarian "{keyword}"</h1>
+
+      <h1 style={{ color: "green" }}>Hasil pencarian &quot;{keyword}&quot;</h1>
+      <h1>Hasil pencarian &quot;{keyword}&quot;</h1>
 
       {articleList
         .filter((item) =>
